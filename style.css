@@ -3,3 +3,24 @@ body {
   height: 100%;
   margin: 0;
 }
+
+nav a {
+  padding: 10px;
+  background-color: aquamarine;
+}
+
+section#details div {
+  float: left;
+  background-color: aquamarine;
+  text-align: center;
+  width: 25%;
+}
+
+section#featured-property {
+  text-align: center;
+}
+
+section#featured-property > p {
+  max-width: 800px;
+}
+
